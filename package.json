@@ -6,9 +6,9 @@
   "author": "trinity-0111 <fangtingliu@protonmail.com>",
   "license": "MIT",
   "scripts": {
-    "deploy": "npx hardhat run scripts/deploy.ts --network ropsten",
-    "upgrade": "npx hardhat run scripts/upgrade.ts --network ropsten",
-    "read": "npx hardhat run scripts/read.ts --network ropsten",
+    "deploy": "npx hardhat run scripts/deploy.ts --network matic",
+    "upgrade": "npx hardhat run scripts/upgrade.ts --network matic",
+    "read": "npx hardhat run scripts/read.ts --network matic",
     "deploy-localhost": "npx hardhat run scripts/deploy.ts --network localhost",
     "upgrade-localhost": "npx hardhat run scripts/upgrade.ts --network localhost",
     "read-localhost": "npx hardhat run scripts/read.ts --network localhost"
